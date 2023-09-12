@@ -13,8 +13,9 @@ public class FizzBizz {
             {
                 s=s+"Fizz";
             }
-            else
-                s=Integer.toString(i);
+            if(s=="") {
+	                s=Integer.toString(i);
+	            }
             System.out.println(s);
         }
     }
